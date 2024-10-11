@@ -1,185 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <link rel="icon" href="public/logo-2.png"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="https://kit.fontawesome.com/589a536eab.js" crossorigin="anonymous"></script>
-  <title>Alekhya Jujjuri</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="public/logo-2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/589a536eab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Alekhya Jujjuri</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container-fluid con">
+        <nav>
+          <img src="" class="logo" />
 
+          <ul id="sidemenu">
+            <li class=""><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Certifications</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark fa" onclick="closemenu()"></i>
+            <li>
+              <a href="public/Alekhya_J.pdf" class="bi bi-download" download>
+                Download CV</a
+              >
+            </li>
+          </ul>
 
-<div id="header">
-  <div class="container-fluid con">
-    <nav>
-      <img src="" class="logo">
-      
-      <ul id="sidemenu">
-        <li class=""><a href="#header">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Certifications</a></li>
-        <li><a href="#portfolio">Projects</a></li>
-        <li><a href="#contact">Contact</a></li><i class="fa-regular fa-circle-xmark fa" onclick="closemenu()"></i>
-        <li><a href="public/Alekhya_J.pdf" class="bi bi-download" download> Download CV</a></li>
-      </ul>
-    
-      <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
-    </nav>
-    <div class="name">
-      <p>Hi, <br/> I am Alekhya</p>
-      <b>UI/UX Developer</b>
-    </div>
-  </div>
-</div>
-
-
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="about1">
-        <img src="public/alekhya.jpg" alt="mypic">
-      </div>
-      <div class="about2">
-      <h3 class="" ><b>About Me</b></h3> 
-    <p>I would like to work with an organization which provides me with secure
-      opportunities to enhance my skills and knowledge along with contributing to the
-      growth of the organization.
-    
-      <div class="titles">
-        <button class="me-2 btn btn-outline-light tablink activelink" onclick="opentab('skills')">Skills</button>
-        <button class="tablink btn btn-outline-light" onclick="opentab('education')" >Education</button>
-      </div>
-      <div class="content activetab" id="skills">
-        <ul>
-          <li><span>Good Knowledge on HTML, CSS and JavaScript</span></li>
-          <li><span>Dynamic and Responsive designs</span></li>
-          <li><span>JavaScript</span></li>
-           <li><span>React Js and React Materia UI</span></li>
-           <li><span>Python and SQL</span></li>
-          <li><span>GtHub,GIT,VS Code</span></li>
-        </ul>
-      </div>
-      <div class="content" id="education">
-        <ul>
-          <li><span>B.Tech(2019-2023)</span><br>Kakinada Institute of Engineering and Technology, Kakinada</li>
-          <li><span>Intermeidate(2019)</span><br>Ap Model School Junior College, Nuzendla</li>
-          <li><span>SSC(2017)</span><br>ZP High School, Nuzendla</li>
-         
-        </ul>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-------My Projects---->
-<div id="services">
-  <div class="container">
-    <h3 class="text-center"><b>Certifications</b></h3> 
-    <div class="projectlist">
-      <div>
-        <h4>Web Development</h4>
-        <p>Strong foundations in UI technologies. </p>
-        <a href="public/Corizo_WebDevelopment_Intern.pdf" target="new" class="text-primary">Know more<span class="bi bi-chevron-right"></span></a>
-      </div>
-      <div>
-        <h4><i class="bi bi-git"></i> GIT from Udemy</h4>
-        <p>Solid understanding and basic commands to deploy projects on GitHub</p>
-        <a href="https://www.udemy.com/certificate/UC-e4df00d1-8000-467e-8847-d37be3e3c32d/" target="new" class="text-primary">Know more<span class="bi bi-chevron-right"></span></a>
-      </div>
-      </div>
-      </div>
-      </div>
-     
-<!----portfolio-->
-<div id="portfolio">
-  <div class="container">
-    <div class="h3 text-center"><b>Work Samples</b></div>
-    <div class="worklist">
-      <div class="work">
-        <div class="layer">
-          <span>Plant Leaf Disease Detection</span>
-         
-         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
+        </nav>
+        <div class="name">
+          <p>
+            Hi, <br />
+            I am Alekhya
+          </p>
+          <b>UI/UX Developer</b>
         </div>
-       
       </div>
-      <div class="work">
-        <div class="layer">
-          <span>Random Joke Generator
-          </span>
-          <!--<p>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about1">
+            <img src="public/alekhya.jpg" alt="mypic" />
+          </div>
+          <div class="about2">
+            <h3 class=""><b>About Me</b></h3>
+            <p>
+              I would like to work with an organization which provides me with
+              secure opportunities to enhance my skills and knowledge along with
+              contributing to the growth of the organization.
+            </p>
+
+            <div class="titles">
+              <button
+                class="me-2 btn btn-outline-light tablink activelink"
+                onclick="opentab('skills')"
+              >
+                Skills
+              </button>
+              <button
+                class="tablink btn btn-outline-light"
+                onclick="opentab('education')"
+              >
+                Education
+              </button>
+            </div>
+            <div class="content activetab" id="skills">
+              <ul>
+                <li><span>Good Knowledge on HTML, CSS and JavaScript</span></li>
+                <li><span>Dynamic and Responsive designs</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>React Js and React Materia UI</span></li>
+                <li><span>Python and SQL</span></li>
+                <li><span>GtHub,GIT,VS Code</span></li>
+              </ul>
+            </div>
+            <div class="content" id="education">
+              <ul>
+                <li>
+                  <span>B.Tech(2019-2023)</span><br />Kakinada Institute of
+                  Engineering and Technology, Kakinada
+                </li>
+                <li>
+                  <span>Intermeidate(2019)</span><br />Ap Model School Junior
+                  College, Nuzendla
+                </li>
+                <li><span>SSC(2017)</span><br />ZP High School, Nuzendla</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------My Projects---->
+    <div id="services">
+      <div class="container">
+        <h3 class="text-center"><b>Certifications</b></h3>
+        <div class="projectlist">
+          <div>
+            <h4>Web Development</h4>
+            <p>Strong foundations in UI technologies.</p>
+            <a
+              href="public/Corizo_WebDevelopment_Intern.pdf"
+              target="new"
+              class="text-primary"
+              >Know more<span class="bi bi-chevron-right"></span
+            ></a>
+          </div>
+          <div>
+            <h4><i class="bi bi-git"></i> GIT from Udemy</h4>
+            <p>
+              Solid understanding and basic commands to deploy projects on
+              GitHub
+            </p>
+            <a
+              href="https://www.udemy.com/certificate/UC-e4df00d1-8000-467e-8847-d37be3e3c32d/"
+              target="new"
+              class="text-primary"
+              >Know more<span class="bi bi-chevron-right"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <div class="h3 text-center"><b>Work Samples</b></div>
+        <div class="worklist">
+          <div class="work">
+            <div class="layer">
+              <span>Plant Leaf Disease Detection</span>
+
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <div class="layer">
+              <span>Random Joke Generator </span>
+              <!--<p>
             Created responsive Tic Tac Toe game using HTML, CSS, and JavaScript
           </p>-->
-         <a href="https://alekhyajujjuri.github.io/Random-Joke/" target="new">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-        </div>
-      </div>
-      <div class="work">
-        
-        <div class="layer">
-          <span>Movie Search application
-          </span>
-         <!-- <p>
+              <a
+                href="https://alekhyajujjuri.github.io/Random-Joke/"
+                target="new"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <div class="layer">
+              <span>Movie Search application </span>
+              <!-- <p>
             Created a Spotify clone application, recreating its features with a user-friendly interface. Implemented music streaming, playlist creation, and recommendation functionalities. 
           </p>-->
-         <a href="https://movie-search-alekhya.netlify.app" target="new">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-        </div>
-      </div>
-      <div class="work">
-        
-        <div class="layer">
-          <span>Shopping application
-          </span>
-         <!-- <p>
+              <a href="https://movie-search-alekhya.netlify.app" target="new">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <div class="layer">
+              <span>EMI Calcuator </span>
+              <!--<p>
+            Created responsive Tic Tac Toe game using HTML, CSS, and JavaScript
+          </p>-->
+              <a
+                href="https://alekhyajujjuri.github.io/EMI-calculator/"
+                target="new"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <div class="layer">
+              <span>Shopping application </span>
+              <!-- <p>
             Created a Spotify clone application, recreating its features with a user-friendly interface. Implemented music streaming, playlist creation, and recommendation functionalities. 
           </p>-->
-         <a href="https://github.com/ALEKHYAJUJJURI/API-router.git" target="new">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a
+                href="https://github.com/ALEKHYAJUJJURI/API-router.git"
+                target="new"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <a
+            href="https://github.com/ALEKHYAJUJJURI?tab=repositories"
+            target="_blank"
+            class="btn btn-outline-danger"
+            >see more</a
+          >
         </div>
       </div>
-      
     </div>
-      <div class="text-center mt-3">
-        <a href="https://github.com/ALEKHYAJUJJURI?tab=repositories" target="_blank" class="btn btn-outline-danger">see more</a>
-      </div>
-      
-
-  </div>
-</div>
-<!--==============contact-=====-->
-<div id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="leftcolumn">
-        <h3 class=""><b>Contact Me</b></h3>
-        <p><i class="fa-solid fa-envelope"></i> <a class="condet" href="mailto:jujjurialekhya123@gmail.com">jujjurialekhya123@gmail.com</a></p>
-        <p><i class="fa-solid fa-phone"></i><a class="condet" href="tel:+91 7075685295">7075685295</a></p>
-        <div class="socialicons">
-          <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
-          <a href="https://github.com/ALEKHYAJUJJURI"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/alekhya-jujjuri-4298ba235/"><i class="fa-brands fa-linkedin"></i></a>
-          <a class="" href="https://www.frontendmentor.io/profile/ALEKHYAJUJJURI"><img src="public/download.jpeg" class="rounded" width="30" /></a>
+    <!--==============contact-=====-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="leftcolumn">
+            <h3 class=""><b>Contact Me</b></h3>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              <a class="condet" href="mailto:jujjurialekhya123@gmail.com"
+                >jujjurialekhya123@gmail.com</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><a class="condet" href="tel:+91 7075685295">7075685295</a>
+            </p>
+            <div class="socialicons">
+              <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+              <a href="https://github.com/ALEKHYAJUJJURI"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/alekhya-jujjuri-4298ba235/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                class=""
+                href="https://www.frontendmentor.io/profile/ALEKHYAJUJJURI"
+                ><img src="public/download.jpeg" class="rounded" width="30"
+              /></a>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="your Message"
+              ></textarea>
+              <button type="submit" class="btn btn-outline-primary">
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        
-      </div>
-      <div class="rightcolumn">
-        <form name="submit-to-google-sheet">
-          <input type="text" name="Name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="your Email" required>
-          <textarea name="Message" rows="6" placeholder="your Message"></textarea>
-          <button type="submit" class="btn btn-outline-primary">Submit</button>
-        </form>
-        <span id="msg"></span>
       </div>
     </div>
-  </div>
-  
-</div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
